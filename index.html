@@ -16,6 +16,34 @@
 </head>
 
 <body>
+	<!-- Mobil menu -->
+
+	<div class="mobil-menu" is-open>
+
+		<button class="btn-close" type="button">
+			<svg class="icon-close" width="8" height="8">
+				<use href="./images/icons.svg#icon-close"></use>
+			</svg>
+		</button>
+
+		<nav class="mobil-nav">
+			<ul class="mobil-list">
+				<li><a class="cls-a activ" href="./index.html">Studio</a></li>
+				<li><a class="cls-a" href="">Portfolio</a></li>
+				<li><a class="cls-a" href="">Contacts</a></li>
+			</ul>
+		</nav>
+
+		<address>
+			<ul class="cls-ul">
+				<li><a class="cls-a cls-cont" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+				<li><a class="cls-a cls-cont" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+			</ul>
+		</address>
+
+
+	</div>
+
 
 	<header class="cls-header">
 		<div class="container">
@@ -36,7 +64,7 @@
 				</ul>
 			</address>
 
-			<button class="button-menu" type="but-menu">
+			<button type="but-menu" class="button-menu is-open">
 				<svg class="icon-menu" width="24" height="24">
 					<use href="./images/icons.svg#icon-close"></use>
 				</svg>
@@ -110,11 +138,8 @@
 				<h2 class="cls-hh">Our Team</h2>
 				<ul class="cls-ul">
 					<li class="card">
-						<img 
-							srcset="./images/mark.jpg 1x, ./images/mark-2x.jpg 2x" 
-							src="./images/tom.jpg" 
-							width="264" height="260" 
-							alt="Mark Guerrero">
+						<img srcset="./images/mark.jpg 1x, ./images/mark-2x.jpg 2x" src="./images/tom.jpg" width="264"
+							height="260" alt="Mark Guerrero">
 						<div class="man-job-text">
 							<h3 class="cls-hhh">Mark Guerrero</h3>
 							<p class="cls-p mrgn">Product Designer</p>
@@ -151,11 +176,8 @@
 						</div>
 					</li>
 					<li class="card">
-						<img 
-							srcset="./images/tom.jpg 1x, ./images/tom-2x.jpg 2x" 
-							src="./images/tom.jpg" 
-							width="264" height="260" 
-							alt="Tom Ford">
+						<img srcset="./images/tom.jpg 1x, ./images/tom-2x.jpg 2x" src="./images/tom.jpg" width="264"
+							height="260" alt="Tom Ford">
 						<div class="man-job-text">
 							<h3 class="cls-hhh">Tom Ford</h3>
 							<p class="cls-p mrgn">Frontend Developer</p>
@@ -192,11 +214,8 @@
 						</div>
 					</li>
 					<li class="card">
-						<img 
-							srcset="./images/camila.jpg 1x, ./images/camila-2x.jpg 2x"
-							src="./images/camila.jpg" 
-							width="264" height="260" 
-							alt="Camila Garcia">
+						<img srcset="./images/camila.jpg 1x, ./images/camila-2x.jpg 2x" src="./images/camila.jpg" width="264"
+							height="260" alt="Camila Garcia">
 						<div class="man-job-text">
 							<h3 class="cls-hhh">Camila Garcia</h3>
 							<p class="cls-p mrgn">Marketing</p>
@@ -233,11 +252,8 @@
 						</div>
 					</li>
 					<li class="card">
-						<img 						<img 
-							srcset="./images/daniel.jpg 1x, ./images/daniel-2x.jpg 2x"
-							src="./images/daniel.jpg" 
-							width="264" height="260" 
-							alt="Daniel Wilson">
+						<img <img srcset="./images/daniel.jpg 1x, ./images/daniel-2x.jpg 2x" src="./images/daniel.jpg"
+							width="264" height="260" alt="Daniel Wilson">
 						<div class="man-job-text">
 							<h3 class="cls-hhh">Daniel Wilson</h3>
 							<p class="cls-p mrgn">UI Designer</p>
@@ -283,11 +299,8 @@
 				<ul class="cls-ul">
 					<li class="card-p">
 						<div class="card-p-div-img">
-							<img 
-								srcset="./images/banking.jpg 1x, ./images/banking-2x.jpg 2x"
-								src="./images/banking.jpg"
-								width="360" height="300" 
-								alt="Banking App">
+							<img srcset="./images/banking.jpg 1x, ./images/banking-2x.jpg 2x" src="./images/banking.jpg"
+								width="360" height="300" alt="Banking App">
 							<p class="text-hover">
 								14 Stylish and User-Friendly App Design Concepts · Task
 								Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -300,11 +313,8 @@
 					</li>
 					<li class="card-p">
 						<div class="card-p-div-img">
-							<img 
-								srcset="./images/cashless.jpg 1x, ./images/cashless-2x.jpg 2x"
-								src="./images/cashless.jpg"
-								width="360" height="300" 
-								alt="Cashless Payment">
+							<img srcset="./images/cashless.jpg 1x, ./images/cashless-2x.jpg 2x" src="./images/cashless.jpg"
+								width="360" height="300" alt="Cashless Payment">
 							<p class="text-hover">
 								14 Stylish and User-Friendly App Design Concepts · Task
 								Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -318,9 +328,7 @@
 					<li class="card-p">
 						<div class="card-p-div-img">
 							<img srcset="./images/meditation.jpg 1x, ./images/meditation-2x.jpg 2x"
-							src="./images/meditation.jpg" 
-							width="360" height="300" 
-							alt="Meditation App">
+								src="./images/meditation.jpg" width="360" height="300" alt="Meditation App">
 							<p class="text-hover">
 								14 Stylish and User-Friendly App Design Concepts · Task
 								Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -333,11 +341,8 @@
 					</li>
 					<li class="card-p">
 						<div class="card-p-div-img">
-							<img 
-							srcset="./images/taxi.jpg 1x, ./images/taxi-2x.jpg 2x"
-							src="./images/taxi.jpg" 
-							width="360" height="300" 
-							alt="Taxi Service">
+							<img srcset="./images/taxi.jpg 1x, ./images/taxi-2x.jpg 2x" src="./images/taxi.jpg" width="360"
+								height="300" alt="Taxi Service">
 							<p class="text-hover">
 								14 Stylish and User-Friendly App Design Concepts · Task
 								Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -350,11 +355,8 @@
 					</li>
 					<li class="card-p">
 						<div class="card-p-div-img">
-							<img 
-								srcset="./images/screen.jpg 1x, ./images/screen-2x.jpg 2x"
-								src="./images/screen.jpg" 
-								width="360" height="300" 
-								alt="Screen Illustrations">
+							<img srcset="./images/screen.jpg 1x, ./images/screen-2x.jpg 2x" src="./images/screen.jpg"
+								width="360" height="300" alt="Screen Illustrations">
 							<p class="text-hover">
 								14 Stylish and User-Friendly App Design Concepts · Task
 								Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -367,10 +369,8 @@
 					</li>
 					<li class="card-p">
 						<div class="card-p-div-img">
-							<img srcset="./images/taxi.jpg 1x, ./images/taxi-2x.jpg 2x" 
-							src="./images/online.jpg" 
-							width="360" height="300" 
-							alt="Online Courses">
+							<img srcset="./images/taxi.jpg 1x, ./images/taxi-2x.jpg 2x" src="./images/online.jpg" width="360"
+								height="300" alt="Online Courses">
 							<p class="text-hover">
 								14 Stylish and User-Friendly App Design Concepts · Task
 								Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -449,10 +449,9 @@
 		</div>
 	</footer>
 
-
 	<!-- Modal window -->
 
-	<div class="backdrop is-open">
+	<div class="backdrop" is-open>
 		<div class="modal">
 			<button class="btn-close" type="button">
 				<svg class="icon-close" width="8" height="8">
