@@ -509,7 +509,6 @@ footer .cls-logo {
 
 .mobil-list {
 	list-style-type: none;
-	font-style: normal;
 	font-family: Roboto;
 	font-weight: 700;
 	font-style: Bold;
@@ -520,6 +519,26 @@ footer .cls-logo {
 	margin-left: 16px;
 	display: flex;
 	flex-direction: column;
+	gap: 40px;
+}
+
+.address-list {
+	list-style-type: none;
+	font-family: Roboto;
+	font-weight: 500;
+	font-style: Medium;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 2%;
+	margin-top: 168px;
+	margin-left: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.gap-c {
+	margin-top: 48px;
 	gap: 40px;
 }
 
@@ -544,6 +563,19 @@ footer .cls-logo {
 		0px 2px 1px rgba(0, 0, 0, 0.2);
 	background-color: #fcfcfc;
 	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-close-menu {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	top: 24px;
+	right: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
 }
 
 .btn-close {
@@ -761,8 +793,9 @@ footer .cls-logo {
 	}
 
 	address .cls-ul {
-		display: block;
-		gap: 40px;
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
 		padding-right: 0;
 		font-family: Roboto;
 		font-weight: 400;
@@ -1004,7 +1037,11 @@ footer .cls-logo {
 		margin-left: 76px;
 	}
 
-
+	address .cls-ul {
+		display: flex;
+		flex-direction: row;
+		gap: 40px;
+	}
 
 
 }

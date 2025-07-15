@@ -17,10 +17,10 @@
 
 <body>
 	<!-- Mobil menu -->
-
+	<!-- Added in class "mobil-menu" class "is-open" -->
 	<div class="mobil-menu" is-open>
 
-		<button class="btn-close" type="button">
+		<button class="btn-close-menu" type="button">
 			<svg class="icon-close" width="8" height="8">
 				<use href="./images/icons.svg#icon-close"></use>
 			</svg>
@@ -28,18 +28,49 @@
 
 		<nav class="mobil-nav">
 			<ul class="mobil-list">
-				<li><a class="cls-a activ" href="./index.html">Studio</a></li>
+				<li><a class="cls-a" href="./index.html">Studio</a></li>
 				<li><a class="cls-a" href="">Portfolio</a></li>
 				<li><a class="cls-a" href="">Contacts</a></li>
 			</ul>
 		</nav>
 
 		<address>
-			<ul class="cls-ul">
+			<ul class="address-list">
 				<li><a class="cls-a cls-cont" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
 				<li><a class="cls-a cls-cont" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
 			</ul>
 		</address>
+
+		<ul class="social-list gap-c">
+			<li class="social-frame">
+				<a class="social-link bg-color" href="#">
+					<svg class="social-icon" width="24" height="24">
+						<use href="./images/icons.svg#icon-instagram"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="social-frame">
+				<a class="social-link bg-color" href="#">
+					<svg class="social-icon" width="24" height="24">
+						<use href="./images/icons.svg#icon-twitter"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="social-frame">
+				<a class="social-link bg-color" href="#">
+					<svg class="social-icon" width="24" height="24">
+						<use href="./images/icons.svg#icon-facebook"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="social-frame">
+				<a class="social-link bg-color" href="#">
+					<svg class="social-icon" width="24" height="24">
+						<use href="./images/icons.svg#icon-linkedin"></use>
+					</svg>
+				</a>
+			</li>
+		</ul>
 
 
 	</div>
@@ -450,7 +481,7 @@
 	</footer>
 
 	<!-- Modal window -->
-
+	<!-- Added in class "backdrop" class "is-open" -->
 	<div class="backdrop" is-open>
 		<div class="modal">
 			<button class="btn-close" type="button">
