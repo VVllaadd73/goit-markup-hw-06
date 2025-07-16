@@ -427,7 +427,7 @@ footer .cls-logo {
 	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-p:hover .text-hover .card-p:focus .text-hover {
+.card-p:hover .text-hover, .card-p:focus .text-hover {
 	transform: translateY(0%);
 	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -946,7 +946,6 @@ footer .cls-logo {
 	}
 
 	nav .cls-ul {
-		display: flex;
 		gap: 40px;
 		margin-left: 76px;
 	}
@@ -1058,7 +1057,6 @@ footer .cls-logo {
 	}
 
 	nav .cls-ul {
-		display: flex;
 		gap: 40px;
 		margin-left: 76px;
 	}
