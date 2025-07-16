@@ -130,7 +130,6 @@ header a {
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
-	gap: 72px;
 	align-items: center;
 }
 
@@ -194,8 +193,6 @@ header a {
 	font-size: 36px;
 	line-height: 40px;
 	letter-spacing: 2%;
-	text-align: center;
-
 }
 
 .cls-sss .cls-hhh {
@@ -217,6 +214,7 @@ header a {
 .cls-cont {
 	text-decoration: none;
 	font-weight: 400;
+	font-style: normal;
 	transition:
 		color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -237,7 +235,7 @@ header a {
 	background-image: linear-gradient(to bottom,
 			rgba(46, 47, 66, 0.7),
 			rgba(46, 47, 66, 0.7)),
-		url(../images/office.jpg);
+		url(../images/office-m.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -495,11 +493,15 @@ footer .cls-logo {
 	pointer-events: auto;
 }
 
+.button-menu {
+	background-color: transparent;
+}
+
 .mobil-menu {
 	position: fixed;
 	background-color: #fff;
 	width: 320px;
-	height: 640px;
+	height: 100%;
 	left: 50%;
 	transform: translate(-50%, 0);
 	opacity: 0;
@@ -769,6 +771,9 @@ footer .cls-logo {
 	max-width: 288px;
 }
 
+.clr {
+	color: rgba(64, 75, 191, 1);
+}
 
 
 
@@ -777,7 +782,7 @@ footer .cls-logo {
 		background-image: linear-gradient(to bottom,
 				rgba(46, 47, 66, 0.7),
 				rgba(46, 47, 66, 0.7)),
-			url(../images/office-2x.jpg);
+			url(../images/office-m-2x.jpg);
 	}
 }
 
@@ -785,6 +790,13 @@ footer .cls-logo {
 
 	.container {
 		max-width: 768px;
+	}
+
+	.cls-s {
+		background-image: linear-gradient(to bottom,
+				rgba(46, 47, 66, 0.7),
+				rgba(46, 47, 66, 0.7)),
+			url(../images/office-t.jpg);
 	}
 
 	.cls-s {
@@ -894,12 +906,32 @@ footer .cls-logo {
 
 }
 
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+	.cls-s {
+		background-image: linear-gradient(to bottom,
+				rgba(46, 47, 66, 0.7),
+				rgba(46, 47, 66, 0.7)),
+			url(../images/office-t-2x.jpg);
+	}
+}
+
+
+
 @media (min-width: 1158px) {
 
 	.cls-s {
 		max-width: 1440px;
 		padding: 188px 0;
 	}
+
+	.cls-s {
+		background-image: linear-gradient(to bottom,
+				rgba(46, 47, 66, 0.7),
+				rgba(46, 47, 66, 0.7)),
+			url(../images/office.jpg);
+	}
+
+
 
 	address .cls-ul {
 		display: flex;
@@ -1017,12 +1049,6 @@ footer .cls-logo {
 		margin-top: 0;
 	}
 
-	.col {
-		display: block;
-		flex-direction: column;
-		margin-bottom: 72px;
-	}
-
 	.cls-foot .cls-input {
 		width: 264px;
 	}
@@ -1042,6 +1068,14 @@ footer .cls-logo {
 		flex-direction: row;
 		gap: 40px;
 	}
-
-
 }
+
+@media (min-width: 1158px) and (min-resolution: 192dpi) {
+	.cls-s {
+		background-image: linear-gradient(to bottom,
+				rgba(46, 47, 66, 0.7),
+				rgba(46, 47, 66, 0.7)),
+			url(../images/office-t-2x.jpg);
+	}
+}
+
