@@ -57,8 +57,8 @@ header .container {
 }
 
 header a {
-	padding-top: 16px;
-	padding-bottom: 16px;
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 
 .button-menu {
@@ -131,6 +131,7 @@ header a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 72px 24px;
 }
 
 .cls-header {
@@ -169,7 +170,6 @@ header a {
 	color: #FFFFFF;
 	font-family: Roboto;
 	font-weight: 700;
-	font-style: Bold;
 	font-size: 36px;
 	line-height: 40px;
 	letter-spacing: 2%;
@@ -189,10 +189,9 @@ header a {
 .cls-ss .cls-hhh {
 	font-family: Roboto;
 	font-weight: 700;
-	font-style: Bold;
 	font-size: 36px;
 	line-height: 40px;
-	letter-spacing: 2%;
+	text-align: center;
 }
 
 .cls-sss .cls-hhh {
@@ -499,26 +498,24 @@ footer .cls-logo {
 
 .mobil-menu {
 	position: fixed;
+	opacity: 0;
+	pointer-events: none;
 	background-color: #fff;
 	width: 320px;
 	height: 100%;
 	left: 50%;
 	transform: translate(-50%, 0);
-	opacity: 0;
-	pointer-events: none;
 	z-index: 2;
+	padding: 0 24px 40px 16px;
 }
 
 .mobil-list {
 	list-style-type: none;
 	font-family: Roboto;
 	font-weight: 700;
-	font-style: Bold;
 	font-size: 36px;
 	line-height: 40px;
-	letter-spacing: 2%;
 	margin-top: 72px;
-	margin-left: 16px;
 	display: flex;
 	flex-direction: column;
 	gap: 40px;
@@ -528,12 +525,9 @@ footer .cls-logo {
 	list-style-type: none;
 	font-family: Roboto;
 	font-weight: 500;
-	font-style: Medium;
 	font-size: 20px;
 	line-height: 24px;
-	letter-spacing: 2%;
 	margin-top: 168px;
-	margin-left: 16px;
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
@@ -695,7 +689,6 @@ footer .cls-logo {
 
 .form-text-accept {
 	margin-bottom: 24px;
-
 }
 
 .label-accept-flag {
@@ -720,14 +713,11 @@ footer .cls-logo {
 	fill: transparent;
 }
 
-
-
 .accept-flag:checked+.label-accept-flag .label-accept-icon {
 	background-color: #404BBF;
 	border: none;
 	fill: #F4F4FD;
 }
-
 
 .label-accept-link {
 	color: #4d5ae5;
@@ -764,7 +754,6 @@ footer .cls-logo {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 72px;
 }
 
 .footer-form-label {
@@ -774,8 +763,6 @@ footer .cls-logo {
 .clr {
 	color: rgba(64, 75, 191, 1);
 }
-
-
 
 @media (min-resolution: 192dpi) {
 	.cls-s {
@@ -824,10 +811,8 @@ footer .cls-logo {
 	}
 
 	.cls-h {
-		color: #FFFFFF;
 		font-size: 56px;
 		line-height: 60px;
-		letter-spacing: 2%;
 		max-width: 496px;
 	}
 
@@ -870,13 +855,11 @@ footer .cls-logo {
 
 	.cls-foot .container {
 		padding: 0;
-		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
 		justify-content: flex-start;
 		align-items: flex-start;
 		max-width: 496px;
-		gap: 0px 24px;
 	}
 
 	.col {
@@ -901,9 +884,13 @@ footer .cls-logo {
 		pointer-events: none;
 	}
 
+	.cls-ss .cls-hhh {
+		text-align: left;
+	}
 
-
-
+	.cls-foot .cls-input {
+		margin-bottom: 0px;
+	}
 }
 
 @media (min-width: 768px) and (min-resolution: 192dpi) {
@@ -914,8 +901,6 @@ footer .cls-logo {
 			url(../images/office-t-2x.jpg);
 	}
 }
-
-
 
 @media (min-width: 1158px) {
 
@@ -930,8 +915,6 @@ footer .cls-logo {
 				rgba(46, 47, 66, 0.7)),
 			url(../images/office.jpg);
 	}
-
-
 
 	address .cls-ul {
 		display: flex;
@@ -956,11 +939,6 @@ footer .cls-logo {
 		padding: 0 15px;
 	}
 
-	header a {
-		padding-top: 24px;
-		padding-bottom: 24px;
-	}
-
 	.frame-icon {
 		display: flex;
 		justify-content: center;
@@ -970,19 +948,10 @@ footer .cls-logo {
 		border-radius: 4px;
 		margin-bottom: 8px;
 		background-color: #f4f4fd;
-
 	}
 
 	.sec-pdn {
 		padding: 120px 0;
-	}
-
-	.cls-h {
-		color: #FFFFFF;
-		font-size: 56px;
-		line-height: 60px;
-		letter-spacing: 2%;
-		max-width: 496px;
 	}
 
 	.cls-s .cls-button {
@@ -998,7 +967,6 @@ footer .cls-logo {
 		font-style: Medium;
 		font-size: 20px;
 		line-height: 24px;
-		text-align: left;
 	}
 
 	.cls-sss .cls-ul {
