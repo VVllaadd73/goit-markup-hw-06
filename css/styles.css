@@ -1001,15 +1001,7 @@ footer .cls-logo {
 	.cls-foot .container {
 		justify-content: center;
 		max-width: 1158px;
-		gap: 0;
-	}
-
-	.colunm-a {
-		margin-right: 120px;
-	}
-
-	.colunm-c {
-		margin-left: 80px;
+		gap: 80px;
 	}
 
 	.foot {
@@ -1033,6 +1025,10 @@ footer .cls-logo {
 		display: flex;
 		flex-direction: row;
 		gap: 40px;
+	}
+
+	.colunm-b {
+		margin-left: 40px;
 	}
 }
 
